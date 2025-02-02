@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import { DeshboartCardInfo } from '../Setup/Array';
 import NavDown from '../Setup/Nav/NavDown';
 import Title from '../Setup/Text/Title';
-import Button from '../Setup/Btn/Button';
 import Text from './Text';
 
 function Deshboard() {
@@ -46,33 +45,22 @@ function Deshboard() {
                                 <p className='font-bold leading-[30px] px-3'>{price}</p>
                             </div>
                         </div>
-                    ))}
-                       <div></div>
-            <div className='flex flex-col h-[490px]'>
-           { isactiv === true &&  <Text />}
-               <div className='flex justify-end items-end  h-[480px]'>
-                 <button onClick={open} className=''>
-                    {isactiv === false ? <p className='text-content'>C</p> : <i class="fa-solid fa-xmark text-3xl text-content"></i>}
-                  </button>
-               </div>
-              
-            </div>
-                </div>
-              
-            </div>
-           
-           
-        </section>
-        {/* <Text />
-            <div className='flex justify-end w-[1300px] pb-10'>
-                <button onClick={open}>
-                    {isactiv === false ? <p className='text-content'>C</p> : <i class="fa-solid fa-xmark text-3xl text-content"></i>}
-                </button>
-              
-            </div> */}
-           
-    </section>
-    </>
+                    ))} 
+
+                <div></div>
+             <div className='flex flex-col h-[490px]'>
+              { isactiv === true &&  <Text />}
+                 <div className='flex md:justify-end md:items-end justify-center h-[200px]   md:h-[480px]'>
+                   <button onClick={open} className=''>
+                     {isactiv === false ? <p className='text-content'>C</p> : <i class="fa-solid fa-xmark text-3xl text-content"></i>}
+                   </button>
+                 </div>
+              </div>
+              </div>
+        </div>     
+    </section>     
+   </section>
+ </>
   )
 }
 

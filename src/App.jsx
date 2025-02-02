@@ -18,7 +18,6 @@ function App() {
               <Route path='/' element={<Deshboard />} />
               <Route path='Incidents' element={<Incidents />} />
               <Route path='Locations' element={<Location />} />
-
            </Route>
         </Routes>
     </BrowserRouter>

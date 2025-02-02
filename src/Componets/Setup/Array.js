@@ -6,23 +6,23 @@ export const  Navlink = [
     },
     {
         linkName: "Incidents",
-        linkAdd: "Incidents"
+        linkAdd: "/Incidents"
     },
     {
         linkName: "Locations",
-        linkAdd: "Locations"
+        linkAdd: "/Locations"
     },
     {
         linkName: "Activities",
-        linkAdd: "Activities"
+        linkAdd: "/Activities"
     },
     {
         linkName: "Documents",
-        linkAdd: "Documents"
+        linkAdd: "/Documents"
     },
     {
         linkName: "Cypher AI",
-        linkAdd: "Cypher AI"
+        linkAdd: "/Cypher AI"
     },
     
 ];
