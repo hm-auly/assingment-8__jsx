@@ -3,6 +3,7 @@ import NavUp from '../Setup/Nav/NavUp'
 import NavDown from '../Setup/Nav/NavDown'
 import Title from '../Setup/Text/Title'
 import Button from '../Setup/Btn/Button'
+import { Outlet } from 'react-router-dom'
 
 function Navber() {
   return (
@@ -30,6 +31,8 @@ function Navber() {
                </div>
             </NavDown>
         </section>
+
+        <Outlet />
     </>
   )
 }

@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Navlink, ProfileInfo } from '../Array'
 import NavMano from './NavMano'
-
+import { Link } from 'react-router-dom';
 
 
 
@@ -23,7 +23,7 @@ function NavUp() {
             <div className='md:flex lg:gap-8 gap-2 hidden'>
                 {Navlink.map(({linkName, linkAdd}, index) => (
                     <div key={index}>
-                        <a href={linkAdd} className='hover:font-bold text-[9px] md:text-sm hover:text-black duration-300'>{linkName}</a>
+                        <Link to={linkAdd} className='hover:font-bold text-[9px] md:text-sm hover:text-black duration-300'>{linkName}</Link>
                     </div>
                 ))
 

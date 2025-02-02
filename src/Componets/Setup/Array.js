@@ -2,27 +2,27 @@
 export const  Navlink = [
     {
         linkName: "Dashboard",
-        linkAdd: "Home"
+        linkAdd: "/"
     },
     {
         linkName: "Incidents",
-        linkAdd: "Home"
+        linkAdd: "Incidents"
     },
     {
         linkName: "Locations",
-        linkAdd: "Home"
+        linkAdd: "Locations"
     },
     {
         linkName: "Activities",
-        linkAdd: "Home"
+        linkAdd: "Activities"
     },
     {
         linkName: "Documents",
-        linkAdd: "Home"
+        linkAdd: "Documents"
     },
     {
         linkName: "Cypher AI",
-        linkAdd: "Home"
+        linkAdd: "Cypher AI"
     },
     
 ];
