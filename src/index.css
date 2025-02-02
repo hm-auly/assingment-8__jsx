@@ -9,7 +9,7 @@
   @apply flex gap-3 bg-white w-[190px] rounded-md border-1 py-[12px] px-[10px] items-center;
 }, */
 .Navinput{
-  @apply text-xs outline-none border-none w-[88px] ;
+  @apply text-xs outline-none border-none ;
 }
 
 

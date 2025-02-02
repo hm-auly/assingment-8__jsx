@@ -19,7 +19,7 @@ function Navber() {
                <div className='flex gap-5 flex-col md:flex-row items-center'>
                   <div className='flex gap-3 bg-white w-[190px] rounded-md border-1 py-[12px] px-[10px] items-center'>
                      <i class="fa-solid fa-magnifying-glass"></i>
-                     <input type="text" placeholder='Search incident' className='Navinput ' />
+                     <input type="text" placeholder='Search incident' className='Navinput  w-[88px] ' />
                   </div>
 
                   <div className='NavinputDi flex gap-3 bg-white w-[190px] rounded-md border-1 py-[12px] px-[10px] items-center;'>
