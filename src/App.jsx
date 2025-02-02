@@ -5,7 +5,6 @@ import NavUp from './Componets/Setup/Nav/NavUp'
 import Button from './Componets/Setup/Btn/Button'
 import Title from './Componets/Setup/Text/Title'
 import NavDown from './Componets/Setup/Nav/NavDown'
-import Navber from './Componets/MainContent/Navber'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Deshboard from './Componets/MainContent/Deshboard'
 import Incidents from './Componets/MainContent/Incidents'
@@ -15,7 +14,7 @@ function App() {
   return (
     <BrowserRouter>
         <Routes>
-           <Route path='' element={<Navber />} >
+           <Route path='' element={<NavUp />} >
               <Route path='/' element={<Deshboard />} />
               <Route path='Incidents' element={<Incidents />} />
               <Route path='Locations' element={<Location />} />

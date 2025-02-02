@@ -11,6 +11,9 @@
 .Navinput{
   @apply text-xs outline-none border-none ;
 }
+.text-content{
+  @apply text-3xl font-bold bg-primary p-2  rounded-full flex items-center justify-center text-white w-[50px] hover:bg-gray-300 hover:text-black shadow-lg shadow-gray-400  hover:shadow-none;
+}
 
 
 body{

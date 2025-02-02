@@ -8,7 +8,7 @@ function Button({className, Children}) {
             <div>
                 <button className={cn("bg-primary py-2 px-6 rounded-md text-white shadow-md hover:shadow-gray-500 hover:bg-secondary hover:text-black transition-all duration-300", 
                    className)}>
-                     {Children}Cypher AI
+                     {Children}
                 </button>
             </div>
         </section>

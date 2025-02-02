@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { Navlink, ProfileInfo } from '../Array'
 import NavMano from './NavMano'
 import { Link } from 'react-router-dom';
+import { Outlet } from 'react-router-dom';
 
 
 
@@ -52,6 +53,7 @@ function NavUp() {
    
     </div>
     {isactiv &&  <NavMano />}
+    <Outlet />
  </section>   
   )
 }
