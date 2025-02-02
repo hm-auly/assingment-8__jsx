@@ -36,8 +36,8 @@ function Deshboard() {
             <div>
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 md:w-[1300px] gap-5'>
                     {DeshboartCardInfo.map(({cardimg, cardhead, carddes,  price}, index) => (
-                        <div key={index} className='shadow-md shadow-gray-400 hover:shadow-none transition-all duration-300 '>
-                            <div className='flex flex-col gap-1.5 pb-5'>
+                        <div key={index} className='shadow-md shadow-gray-400 hover:shadow-none w-[306px] h-[340px] transition-all duration-300 '>
+                            <div className='flex flex-col gap-0.5'>
                                 <div className=''>
                                  <img className='w-100 ' src={cardimg} alt="" />
                                 </div>
@@ -47,17 +47,30 @@ function Deshboard() {
                             </div>
                         </div>
                     ))}
+                       <div></div>
+            <div className='flex flex-col h-[490px]'>
+           { isactiv === true &&  <Text />}
+               <div className='flex justify-end items-end  h-[480px]'>
+                 <button onClick={open} className=''>
+                    {isactiv === false ? <p className='text-content'>C</p> : <i class="fa-solid fa-xmark text-3xl text-content"></i>}
+                  </button>
+               </div>
+              
+            </div>
                 </div>
+              
             </div>
            
+           
         </section>
+        {/* <Text />
             <div className='flex justify-end w-[1300px] pb-10'>
                 <button onClick={open}>
                     {isactiv === false ? <p className='text-content'>C</p> : <i class="fa-solid fa-xmark text-3xl text-content"></i>}
                 </button>
               
-            </div>
-            <Text />
+            </div> */}
+           
     </section>
     </>
   )
