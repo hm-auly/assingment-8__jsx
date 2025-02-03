@@ -56,7 +56,7 @@ const Stepper = () => {
                     : setCurrentStep((prev) => prev + 1);
                 }}
               >
-                {currentStep === steps.length ? "Finish" : "Next"}
+                {currentStep === steps.length ? "Get started" : "Next"}
               </button>
             )}
         </Link> 
