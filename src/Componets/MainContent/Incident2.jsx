@@ -1,6 +1,7 @@
 import React from 'react'
 import Title from '../Setup/Text/Title'
 import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 const section1info = [
     {
@@ -17,6 +18,11 @@ const section2info = [
 
 
 function Incident2() {
+    let naviget = useNavigate()
+  const handclick = () => {
+    naviget("/stap")
+  }
+
   return (
     <>
       <section className=''>
@@ -43,7 +49,7 @@ function Incident2() {
 
                 <div className='flex gap-3'>
                    
-                    <button className='btn2'>Back</button>
+                    <button className='btn2' onClick={handclick}>Back</button>
                     <Link to="/next3"> <button className='btn'>Next step</button> </Link>
                 </div>
            

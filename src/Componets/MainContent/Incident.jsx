@@ -3,9 +3,14 @@ import ImciNavDown from '../Setup/Nav/ImciNavDown';
 import { incidenInfo } from '../Setup/Array';
 import Title from '../Setup/Text/Title';
 import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 function Incident() {
-  const [isactiv, setactiv] = useState(10)
+  const [isactiv, setactiv] = useState(10);
+  let naviget = useNavigate()
+  const handclick = () => {
+    naviget("/Stapber")
+  }
   
   return (
    <>
@@ -34,7 +39,7 @@ function Incident() {
 
                 <div className='flex gap-3'>
                    
-                    <button className='btn2'>Back</button>
+                    <button className='btn2' onClick={handclick}>Back</button>
                     <Link to="/next"> <button className='btn'>Next step</button> </Link>
                 </div>
            
