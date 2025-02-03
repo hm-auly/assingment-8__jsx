@@ -91,4 +91,80 @@ export const DeshboartCardInfo = [
         head: "Where did the incident occur?",
         des: "Lorem ipsum dolar sit general sac mascho werho"
     },
+ ];
+
+ //Icident info
+ export const incidenInfo = [
+    {
+        img: "/Fi/fi1.svg",
+        des: "Avalanche"
+    },
+    {
+        img: "/Fi/fi2.svg",
+        des: "Biological"
+    },
+    {
+        img: "/Fi/fi3.svg",
+        des: "Blizzard"
+    },
+    {
+        img: "/Fi/fi4.svg",
+        des: "Cold/Freezing"
+    },
+    {
+        img: "/Fi/fi5.svg",
+        des: "Drought"
+    },
+    {
+        img: "/Fi/fi6.svg",
+        des: "Earthquake"
+    },
+    {
+        img: "/Fi/fi7.svg",
+        des: "Flooding"
+    },
+    {
+        img: "/Fi/fi8.svg",
+        des: "Heat Wave"
+    },
+    {
+        img: "/Fi/fi9.svg",
+        des: "Hail"
+    },
+    {
+        img: "/Fi/fi10.svg",
+        des: "Lightninge"
+    },
+    {
+        img: "/Fi/fi11.svg",
+        des: "Man Made"
+    },
+    {
+        img: "/Fi/fi12.svg",
+        des: "Mudslide"
+    },
+    {
+        img: "/Fi/fi13.svg",
+        des: "Severe Storm"
+    },
+    {
+        img: "/Fi/fi14.svg",
+        des: "Strong Wind"
+    },
+    {
+        img: "/Fi/fi15.svg",
+        des: "Tornado"
+    },
+    {
+        img: "/Fi/fi16.svg",
+        des: "Tsunami"
+    },
+    {
+        img: "/Fi/fi18.svg",
+        des: "Volcanic Eruption"
+    },
+    {
+        img: "/Fi/fi19.svg",
+        des: "Wildfire"
+    }
  ]
