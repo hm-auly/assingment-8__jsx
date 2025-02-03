@@ -1,8 +1,17 @@
 import React from 'react'
+import ImciNavDown from '../Setup/Nav/ImciNavDown';
 
 function Incident() {
   return (
-    <div>Hello im auly ullah</div>
+   <>
+      <section>
+        <div>
+
+            <ImciNavDown></ImciNavDown>
+
+        </div>
+      </section>
+   </>
   )
 }
 
