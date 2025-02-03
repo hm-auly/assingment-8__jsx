@@ -3,6 +3,7 @@ import DeshbaortCard from '../Setup/DeshbaortCard'
 import NavDown from '../Setup/Nav/NavDown'
 import Text from './Text'
 import Title from '../Setup/Text/Title';
+import { Link } from 'react-router-dom';
 
 function Incidents() {
   //  const [isactiv, setactiv] = useState(false);
@@ -29,7 +30,10 @@ function Incidents() {
                   <div className='NavinputDi flex gap-3 bg-white w-[190px] rounded-md border-1 py-[12px] px-[10px] items-center;'>
                      <input type="text" placeholder='Sort By: Date modified' className='Navinput' />
                   </div>
-                    <button className='"bg-primary py-2 px-6 rounded-md bg-primary text-white shadow-md hover:shadow-gray-500 hover:bg-secondary hover:text-black transition-all duration-300"'><i class="fa-solid fa-plus"></i> New Incident</button>
+                    
+                    <Link to="/Stapber"> 
+                        <button className='"bg-primary py-2 px-6 rounded-md bg-primary text-white shadow-md hover:shadow-gray-500 hover:bg-secondary hover:text-black transition-all duration-300"'><i class="fa-solid fa-plus"></i> New Incident</button>
+                    </Link>
                 </div>
           </NavDown>
 

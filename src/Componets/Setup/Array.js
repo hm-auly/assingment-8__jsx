@@ -72,4 +72,23 @@ export const DeshboartCardInfo = [
         carddes: "Tulare County,  Los Angles, CA 23415",
         price: "$1,456,654.00"
     },
-]
+];
+
+ // Staper card info
+ export const StapperCardInfo = [
+    {
+        img: "/Images/stapper1.svg",
+        head: "What type of incident?",
+        des: "Choose the category that best describes the incident."
+    },
+    {
+        img: "/Images/stapper2.svg",
+        head: "Tell us about the incident?",
+        des: "Let’s connect the dots and see where to start."
+    },
+    {
+        img: "/Images/stapper3.svg",
+        head: "Where did the incident occur?",
+        des: "Lorem ipsum dolar sit general sac mascho werho"
+    },
+ ]

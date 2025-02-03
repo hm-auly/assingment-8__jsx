@@ -9,6 +9,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Deshboard from './Componets/MainContent/Deshboard'
 import Incidents from './Componets/MainContent/Incidents'
 import Location from './Componets/MainContent/Location'
+import Stapber from './Componets/MainContent/Stapber'
+import Incident from './Componets/MainContent/Incident'
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
               <Route path='/' element={<Deshboard />} />
               <Route path='Incidents' element={<Incidents />} />
               <Route path='Locations' element={<Location />} />
+              <Route path='Stapber' element={<Stapber />} />
+              <Route path='stap' element={<Incident />} />
            </Route>
         </Routes>
     </BrowserRouter>
