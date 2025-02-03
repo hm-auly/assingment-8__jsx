@@ -1,13 +1,13 @@
 import React from 'react'
 import NavDown from './NavDown'
 import Title from '../Text/Title'
+import cn from '../Libe/cn'
 
-function ImciNavDown() {
+function ImciNavDown({chldren}) {
   return (
     <>
-      <section>
-        <div>
-            <NavDown>
+      <section className='NavDoewn'>
+        <div className='NavDoewnItem'>
                 <div>
                     <div className='flex items-center gap-5'>
                         <div >
@@ -27,10 +27,11 @@ function ImciNavDown() {
                 </div>
 
                 <div className='flex gap-3'>
+                   
                     <button className='btn2'>Back</button>
                     <button className='btn'>Next step</button>
                 </div>
-            </NavDown>
+           
         </div>
       </section>
     </>

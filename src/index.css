@@ -23,39 +23,16 @@
 .btnText{
   @apply bg-primary  rounded-md text-white shadow-md hover:shadow-gray-500 hover:bg-secondary hover:text-black transition-all duration-300 ;
 }
-/* .item{
-  @apply flex justify-between w-[300px] items-center pl-20 ;
-} */
- /* .stap-item{
-  @apply relative flex justify-between items-center
- } */
-/* .stap-itme:not(:last-child):before{
-  @apply absolute content-[''] bg-gray-400 w-[100px] h-1 translate-y-2 flex justify-between items-center 
-} */
-/* .stap-item{
-  @apply  bg-gray-600 h-6 w-6 rounded-full flex justify-center items-center z-30  text-white relative
+
+.inciC{
+  @apply bg-primary ;
 }
-.stap-item::before{
-  @apply absolute content-[''] bg-gray-400 w-full h-2 z-30
-} */
- /* .item{
-  @apply relative 
- }
- .item::before{
-  @apply absolute content-[''] bg-[#F4F4F5] w-full h-2 flex justify-center items-center translate-y-2 opacity-75 ;
- }
-.stap{
-  @apply bg-[#F4F4F5] w-6 rounded-full h-6 flex z-10 justify-center items-center text-gray-950 opacity-100 
+.incidentCard{
+  @apply  w-[180px] h-[69px] flex items-center justify-start px-5 py-[22px] rounded-[6px] hover:shadow-sm hover:shadow-gray-500 duration-300;
 }
 
 
-.activ{
-  @apply bg-red-500
-} */
-
-
-
-
+/* stapper desine start */
 .step-item {
   @apply relative flex flex-col justify-center items-center w-[200px];
 }
@@ -78,9 +55,14 @@
 .active:not(:first-child):before {
   @apply bg-green-600;
 }
+/* stapper desine end */
 
-
-
+.NavDoewn{
+  @apply py-5 max-w-[1440px] px-5 bg-secondary flex  justify-center;
+}
+.NavDoewnItem{
+  @apply flex flex-col md:flex-row gap-9 items-center justify-between w-[1268px] ;
+}
 
 
 

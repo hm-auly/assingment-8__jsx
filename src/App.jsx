@@ -11,6 +11,8 @@ import Incidents from './Componets/MainContent/Incidents'
 import Location from './Componets/MainContent/Location'
 import Stapber from './Componets/MainContent/Stapber'
 import Incident from './Componets/MainContent/Incident'
+import Incident2 from './Componets/MainContent/Incident2'
+import Incident3 from './Componets/MainContent/Incident3'
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
               <Route path='Locations' element={<Location />} />
               <Route path='Stapber' element={<Stapber />} />
               <Route path='stap' element={<Incident />} />
+              <Route path='next' element={<Incident2 />} />
+              <Route path='next3' element={<Incident3 />} />
            </Route>
         </Routes>
     </BrowserRouter>
