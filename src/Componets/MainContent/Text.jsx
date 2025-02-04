@@ -26,9 +26,6 @@ function Text() {
         },
         {
             textMe: "Lorem ipsum dolar sit general sac mascho werho"
-        },
-        {
-            textYOU: "Enter your question..."
         }
     ]
 
@@ -45,9 +42,13 @@ function Text() {
                     <div>
                        <p  className='bg-[#F4F4F5] text-black my-3 w-[231px] px-3 rounded-md' >{pr.textYOU}</p>
                     </div>
+
+                   
                 </div>
             ))}
-            <div className='flex justify-between items-center px-2 py-2'>
+            <div> 
+             <input type="text" placeholder='Enter your question...' className='bg-[#F3F4F6] border mx-2 px-1 py-1 outline-none' />
+            <div className='flex justify-between items-center px-3 pb-2'>
                 <div className='flex gap-2'>
                     {imginfo.map(({img}, i) => (
                      <div key={i}>
@@ -58,6 +59,7 @@ function Text() {
                 <div>
                     <button className='btnText px-2 py-1 '>Send</button>
                 </div>
+            </div>
             </div>
         </section>
     </>
