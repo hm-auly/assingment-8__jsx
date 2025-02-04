@@ -10,7 +10,7 @@ const Stepper = () => {
   const [complete, setComplete] = useState(false);
   return (
     <>
-    <section className="md:w-[1440px] flex flex-col justify-center items-center"> 
+    <section className="lg:w-[1440px] flex flex-col justify-center items-center"> 
       <div className="flex justify-between items-center md:max-w-[598px]  ">
         {steps?.map((step, i) => (
           <div
