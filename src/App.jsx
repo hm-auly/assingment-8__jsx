@@ -5,7 +5,7 @@ import NavUp from './Componets/Setup/Nav/NavUp'
 import Button from './Componets/Setup/Btn/Button'
 import Title from './Componets/Setup/Text/Title'
 import NavDown from './Componets/Setup/Nav/NavDown'
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Deshboard from './Componets/MainContent/Deshboard'
 import Incidents from './Componets/MainContent/Incidents'
 import Location from './Componets/MainContent/Location'
@@ -16,7 +16,7 @@ import Incident3 from './Componets/MainContent/Incident3'
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
         <Routes>
            <Route path='' element={<NavUp />} >
               <Route path='/' element={<Deshboard />} />
@@ -28,7 +28,7 @@ function App() {
               <Route path='next3' element={<Incident3 />} />
            </Route>
         </Routes>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
