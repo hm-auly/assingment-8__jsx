@@ -56,8 +56,8 @@ function Incident2() {
             </div>
           </section>
 
-         <section className=' flex justify-center py-7'> 
-           <div className='w-[752px] flex flex-col gap-4'> 
+         <section className=' flex justify-center py-7 px-5'> 
+           <div className='md:w-[752px] flex flex-col gap-4'> 
            <div>
             {section1info.map((prv, i) => (
                 <div key={i}>

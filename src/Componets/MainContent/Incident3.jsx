@@ -40,13 +40,15 @@ function Incident3() {
             </div>
           </section>
 
-         <section className='flex flex-col justify-center items-center py-7'>
-         <div className='w-[752px]'>
-            <div>
+         <section className='flex flex-col justify-center items-center py-7 px-5'>
+         <div className='md:w-[752px]'>
+            <div >
                 <Title>Where’s the incident?</Title>
                 <p className='text-sm text-[#71717A] max-w-lg py-2 pb-4'>Enter a GPS, address. or pin point on the map. Try to be as accurate as possible, or click:Jurisdiction Wide</p>
             </div>
-            <img src="/incidentimg.svg" alt="" />
+            <div className=''>
+              <img className='w-full' src="/incidentimg.svg" alt="" />
+            </div>
           </div>
          </section>
 

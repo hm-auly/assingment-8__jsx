@@ -47,11 +47,11 @@ function Incident() {
       </section>
 
 
-          <div className='flex flex-col items-center gap-8 justify-center py-7'> 
-            <div className='w-[753px]'>
-            <Title>Which of these best describes the incident?</Title>
+          <div className='flex flex-col items-center gap-8 justify-center py-7 px-5'> 
+            <div className='md:w-[753px]'>
+            <Title className={"text-center md:text-start"}>Which of these best describes the incident?</Title>
             </div>
-            <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4  gap-2 w-[753px]'>
+            <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4  gap-2 md:w-[753px]'>
               {incidenInfo.map(({img, des}, i) => (
                 <div key={i} className={`incidentCard  bg-secondary ${isactiv === i && "inciC" }  `}  onClick={() => setactiv(i)} >
                   <div className='flex  gap-[10px]'>

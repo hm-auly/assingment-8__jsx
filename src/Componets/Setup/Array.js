@@ -167,4 +167,32 @@ export const DeshboartCardInfo = [
         img: "/Fi/fi19.svg",
         des: "Wildfire"
     }
- ]
+ ];
+
+  // Location card information
+  export const LocationCardInfo = [
+    {
+      img: "/Images/Lo2.svg",
+      head: "Whitechapel",
+      des: "Tulare County,  Los Angles, CA 23415",
+      price: "$1,456,654.00"
+    },
+    {
+      img: "/Images/Lo1.svg",
+      head: "Whitechapel Rd.",
+      des: "Tulare County,  Los Angles, CA 23415",
+      price: "$1,456,654.00"
+    },
+    {
+      img: "/Images/Lo2.svg",
+      head: "Whitechapel Rd.",
+      des: "Tulare County,  Los Angles, CA 23415",
+      price: "$1,456,654.00"
+    },
+    {
+      img: "/Images/Lo2.svg",
+      head: "Whitechapel Rd.",
+      des: "Tulare County,  Los Angles, CA 23415",
+      price: "$1,456,654.00"
+    },
+  ]

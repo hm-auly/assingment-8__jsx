@@ -10,8 +10,8 @@ const Stepper = () => {
   const [complete, setComplete] = useState(false);
   return (
     <>
-    <section className="w-[1440px] flex flex-col justify-center items-center"> 
-      <div className="flex justify-between items-center max-w-[598px]  ">
+    <section className="md:w-[1440px] flex flex-col justify-center items-center"> 
+      <div className="flex justify-between items-center md:max-w-[598px]  ">
         {steps?.map((step, i) => (
           <div
             key={i}
@@ -29,7 +29,7 @@ const Stepper = () => {
 
 
         {/* card desine */}
-        <div className="flex gap-8 py-5">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 py-5 ">
           {StapperCardInfo.map(({img, head, des}, i) => (
             <div key={i} className="w-[235px] h-[269px] bg-[#F4F4F5] px-3 py-5">
               <div>
