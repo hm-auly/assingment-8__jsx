@@ -20,12 +20,12 @@ function App() {
         <Routes>
            <Route path='' element={<NavUp />} >
               <Route path='/' element={<Deshboard />} />
-              <Route path='Incidents' element={<Incidents />} />
-              <Route path='Locations' element={<Location />} />
-              <Route path='Stapber' element={<Stapber />} />
-              <Route path='stap' element={<Incident />} />
-              <Route path='next' element={<Incident2 />} />
-              <Route path='next3' element={<Incident3 />} />
+              <Route path='/Incidents' element={<Incidents />} />
+              <Route path='/Locations' element={<Location />} />
+              <Route path='/Stapber' element={<Stapber />} />
+              <Route path='/stap' element={<Incident />} />
+              <Route path='/next' element={<Incident2 />} />
+              <Route path='/next3' element={<Incident3 />} />
            </Route>
         </Routes>
     </HashRouter>
