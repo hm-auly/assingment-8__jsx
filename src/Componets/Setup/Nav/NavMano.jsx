@@ -1,10 +1,19 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Navlink, ProfileInfo } from '../Array'
 import { Link } from 'react-router-dom'
 
 function NavMano() {
+    const [isactiv, setactiv] = useState(true);
+
+   const mano = () => {
+      setactiv(false);
+      isactiv === true ? setactiv(false) : setactiv(true);
+  }
+
+
   return (
     <>
+    { isactiv &&
      <section className='px-5 py-5 h-screen '>
 
         
@@ -24,13 +33,14 @@ function NavMano() {
          <div className='flex  flex-col gap-3 py-5 px-5'>
             {Navlink.map(({linkName, linkAdd}, index) => (
                     <div key={index}>
-                       <Link to={linkAdd} className='hover:font-bold hover:text-black duration-300'>{linkName}</Link>
+                       <Link onClick={mano} to={linkAdd} className='hover:font-bold hover:text-black duration-300'>{linkName}</Link>
                     </div>
                  ))
             }
          </div>
 
      </section>
+}
     </>
   )
 }
