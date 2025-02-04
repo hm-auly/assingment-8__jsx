@@ -1,7 +1,7 @@
 import React from 'react'
 import Title from '../Setup/Text/Title'
 import { Link } from 'react-router-dom'
-import { LocationCardInfo } from '../Setup/Array'
+import { activitiInfo, DocumentsInfo, LocationCardInfo } from '../Setup/Array'
 
 
 
@@ -96,6 +96,47 @@ function Location() {
                         </div>
                       </div>
                     ))}
+                </div>
+                <hr className='text-[#e4e4ec]' />
+
+                <div className='flex flex-col gap-3'>
+                <div className='flex justify-between'>
+                   <p className='font-bold '>Activities</p>
+                   <p className='text-sm'>See All</p>
+                  </div>
+                  {activitiInfo.map(({img, head, des, price}, i) => (
+                    <div key={i} className='flex gap-5 bg-[#F4F4F5] py-4 px-[10px] rounded-[10px] md:w-[679px] h-[108px]'>
+                      <div>
+                        <img src={img} alt="" />
+                      </div>
+                      <div>
+                        <h5 className='font-bold'>{head}</h5>
+                        <p className='text-sm text-[#A1A1AA]'>{des}</p>
+                        <p className='font-bold'>{price}</p>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+                <hr className='text-[#e4e4ec]' />
+
+                <div className='flex flex-col gap-3'>
+                  <div className='flex justify-between'>
+                   <p className='font-bold '>Documents</p>
+                   <p className='text-sm'>See All</p>
+                  </div>
+               
+                  {DocumentsInfo.map(({img, head, des, price}, i) => (
+                      <div key={i} className='flex gap-5 bg-[#F4F4F5] py-4 px-[10px] rounded-[10px] md:w-[679px] h-[108px]'>
+                      <div>
+                        <img src={img} alt="" />
+                      </div>
+                      <div>
+                        <h5 className='font-bold'>{head}</h5>
+                        <p className='text-sm text-[#A1A1AA]'>{des}</p>
+                        <p className='font-bold'>{price}</p>
+                      </div>
+                    </div>
+                  ))}
                 </div>
 
           </div>

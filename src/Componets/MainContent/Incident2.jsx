@@ -41,7 +41,7 @@ function Incident2() {
                     </div>
                 </div>
 
-                <div className=' lg:w-[527px] w-full h-1 bg-secondary rounded-[10px]'>
+                <div className=' md:w-[300px] xl:w-[527px] w-full h-1 bg-secondary rounded-[10px]'>
                     <div className='w-[98px] h-1 bg-primary'>
 
                     </div>

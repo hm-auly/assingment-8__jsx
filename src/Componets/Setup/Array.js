@@ -195,4 +195,44 @@ export const DeshboartCardInfo = [
       des: "Tulare County,  Los Angles, CA 23415",
       price: "$1,456,654.00"
     },
+<<<<<<< HEAD
   ]
+=======
+  ];
+  
+  export const activitiInfo = [
+    {
+       img: "/Images/activi.svg" ,
+       head: "Activity name",
+       des: "Location name * 16.12212, -122.1424",
+       price: "$1,456,654.00"
+    },
+    {
+       img: "/Images/activi.svg" ,
+       head: "Activity name",
+       des: "Location name * 16.12212, -122.1424",
+       price: "$1,456,654.00"
+    },
+  ];
+
+  export const DocumentsInfo = [
+    {
+        img: "/Images/activi.svg" ,
+        head: "Activity name",
+        des: "Location name * 16.12212, -122.1424",
+        price: "$1,456,654.00"
+     },
+     {
+        img: "/Images/activi.svg" ,
+        head: "Activity name",
+        des: "Location name * 16.12212, -122.1424",
+        price: "$1,456,654.00"
+     },
+     {
+        img: "/Images/activi.svg" ,
+        head: "Activity name",
+        des: "Location name * 16.12212, -122.1424",
+        price: "$1,456,654.00"
+     },
+  ];
+>>>>>>> be4e0c6 (section w responsiv)
