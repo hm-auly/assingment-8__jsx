@@ -13,6 +13,7 @@ import Stapber from './Componets/MainContent/Stapber'
 import Incident from './Componets/MainContent/Incident'
 import Incident2 from './Componets/MainContent/Incident2'
 import Incident3 from './Componets/MainContent/Incident3'
+import Error from './Componets/MainContent/Error'
 
 function App() {
   return (
@@ -26,7 +27,10 @@ function App() {
               <Route path='/stap' element={<Incident />} />
               <Route path='/next' element={<Incident2 />} />
               <Route path='/next3' element={<Incident3 />} />
+
            </Route>
+           <Route path='*' element={<Error />}/>
+
         </Routes>
     </HashRouter>
   )

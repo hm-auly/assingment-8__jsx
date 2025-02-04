@@ -8,6 +8,8 @@ import { Outlet } from 'react-router-dom';
 
 function NavUp() {
     const [isactiv, setactiv] = useState(false);
+    const [isborder, setborder] = useState(0)
+    
 
     const mano = () => {
         setactiv(true);
@@ -21,15 +23,19 @@ function NavUp() {
             <div>
                 <img src="/Logo.svg" alt="" />
             </div>
-            <div className='md:flex lg:gap-8 gap-2 hidden'>
-                {Navlink.map(({linkName, linkAdd}, index) => (
-                    <div key={index}>
-                        <Link to={linkAdd} className='hover:font-bold text-[9px] md:text-sm hover:text-black duration-300'>{linkName}</Link>
+            <div className='md:flex lg:gap-8 gap-2 hidden '>
+                {Navlink.map(({linkName, linkAdd}, i) => (
+                    <div key={i} className='' >
+                        <Link onClick={() => setborder(i)} to={linkAdd} className={` hover:font-bold text-[9px] md:text-sm hover:text-black duration-300  ${isborder === i && "link-border" }`}>{linkName}</Link>
                     </div>
+                    
                 ))
 
                 }
             </div>
+          
+
+            
 
             <div className='md:flex items-center gap-3 hidden'>
                <div className='w-12 h-12 flex justify-center items-center bg-white rounded-full'> <i class="text-gray-500 fa-solid fa-bell text-3xl"></i></div>
@@ -50,10 +56,12 @@ function NavUp() {
             
            
         </div>
-   
+    
     </div>
+    <hr className='border-[1px]'/>
     {isactiv &&  <NavMano />}
     <Outlet />
+    
  </section>   
   )
 }

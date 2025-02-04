@@ -105,7 +105,7 @@ function Location() {
                    <p className='text-sm'>See All</p>
                   </div>
                   {activitiInfo.map(({img, head, des, price}, i) => (
-                    <div key={i} className='flex gap-5 bg-[#F4F4F5] py-4 px-[10px] rounded-[10px] md:w-[679px] h-[108px]'>
+                    <div key={i} className='flex gap-5 bg-[#F4F4F5] py-4 px-[10px] rounded-[10px] lg:w-[679px] h-[108px]'>
                       <div>
                         <img src={img} alt="" />
                       </div>
@@ -126,7 +126,7 @@ function Location() {
                   </div>
                
                   {DocumentsInfo.map(({img, head, des, price}, i) => (
-                      <div key={i} className='flex gap-5 bg-[#F4F4F5] py-4 px-[10px] rounded-[10px] md:w-[679px] h-[108px]'>
+                      <div key={i} className='flex gap-5 bg-[#F4F4F5] py-4 px-[10px] rounded-[10px] lg:w-[679px] h-[108px]'>
                       <div>
                         <img src={img} alt="" />
                       </div>

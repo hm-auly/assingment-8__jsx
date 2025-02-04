@@ -30,6 +30,9 @@
 .incidentCard{
   @apply  md:w-[180px] md:h-[69px] flex items-center justify-start px-5 py-[22px] rounded-[6px] hover:shadow-sm hover:shadow-gray-500 duration-300;
 }
+.link-border{
+  @apply border-b-[2px] border-black transition-all duration-150
+}
 
 
 /* stapper desine start */
