@@ -19,7 +19,7 @@ function NavUp() {
   return (
   <section>
     <div className=' max-w-[1440px] flex  justify-center bg-secondary text-[#A1A1AA] px-5'>
-        <div className='flex items-center justify-between w-[1269px] py-[18px]'>
+        <div className='flex items-center justify-between w-[1269px] py-[12px]'>
             <div>
                 <img src="/Logo.svg" alt="" />
             </div>

@@ -61,10 +61,10 @@
 /* stapper desine end */
 
 .NavDoewn{
-  @apply py-5 max-w-[1440px] px-5 bg-secondary flex  justify-center;
+  @apply  py-2 md:py-3 max-w-[1440px] px-5 bg-secondary flex  justify-center;
 }
 .NavDoewnItem{
-  @apply flex flex-col md:flex-row gap-9 items-center justify-between w-[1268px] ;
+  @apply flex flex-col md:flex-row gap-3 md:gap-9 items-center justify-between w-[1268px] ;
 }
 
 
