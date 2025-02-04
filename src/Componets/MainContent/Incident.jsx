@@ -48,7 +48,7 @@ function Incident() {
 
 
           <div className='flex flex-col items-center gap-8 justify-center py-7 px-5'> 
-            <div className='md:w-[753px]'>
+            <div className='lg:w-[753px]'>
             <Title className={"text-center md:text-start"}>Which of these best describes the incident?</Title>
             </div>
             <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4  gap-2 md:w-[753px]'>
