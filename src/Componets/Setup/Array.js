@@ -2,7 +2,7 @@
 export const  Navlink = [
     {
         linkName: "Dashboard",
-        linkAdd: "/"
+        linkAdd: ""
     },
     {
         linkName: "Incidents",
