@@ -195,10 +195,10 @@ export const DeshboartCardInfo = [
       des: "Tulare County,  Los Angles, CA 23415",
       price: "$1,456,654.00"
     },
-<<<<<<< HEAD
+
   ]
-=======
-  ];
+
+
   
   export const activitiInfo = [
     {
@@ -235,4 +235,4 @@ export const DeshboartCardInfo = [
         price: "$1,456,654.00"
      },
   ];
->>>>>>> be4e0c6 (section w responsiv)
+
