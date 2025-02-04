@@ -1,13 +1,14 @@
 import React from 'react'
 import { Navlink, ProfileInfo } from '../Array'
+import { Link } from 'react-router-dom'
 
 function NavMano() {
   return (
     <>
-     <section className='px-5 py-5 h-screen'>
+     <section className='px-5 py-5 h-screen '>
 
         
-     <div className='flex items-center gap-6 '>
+     <div className='flex items-center gap-5 '>
                <div><img src="/Images/Proimg.svg" alt="" /></div>
                <div>
                 {ProfileInfo.map(({Name, Gmail}, i) => (
@@ -23,7 +24,7 @@ function NavMano() {
          <div className='flex  flex-col gap-3 py-5 px-5'>
             {Navlink.map(({linkName, linkAdd}, index) => (
                     <div key={index}>
-                       <a href={linkAdd} className='hover:font-bold hover:text-black duration-300'>{linkName}</a>
+                       <Link to={linkAdd} className='hover:font-bold hover:text-black duration-300'>{linkName}</Link>
                     </div>
                  ))
             }
